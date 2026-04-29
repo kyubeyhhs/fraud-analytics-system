@@ -29,5 +29,5 @@ The system uses a centralized **Fact Table** (`f_transactions`) connected to:
 ## Setup Instructions
 1. Clone the repo.
 2. Install dependencies: `pip install -r requirements.txt`
-3. Run `python scripts/generate_pipeline.py` to generate the DuckDB warehouse and BI exports.
+3. Run `python scripts/generate_pipeline.py` to generate the DuckDB warehouse and BI exports or `python scripts/ad-hoc.py` for quick validation and check.
 4. Open `dashboard/fraud_analysis.pbix` to view the analysis.
